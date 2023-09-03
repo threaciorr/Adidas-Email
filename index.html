@@ -53,7 +53,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    />
     <style type="text/css">
       * {
         box-sizing: border-box;
@@ -63,27 +62,92 @@
         table-layout: fixed;
         background-color: #ffffff;
       }
+      .main {
+        background-color: #fff;
+        max-width: 642px;
+        width: 100%;
+        border-spacing: 0;
+        margin: 0 auto;
+        font-family: sans-serif;
+        color: #333;
+      }
+      .header_logo {
+        width: 100%;
+        max-width: 74px;
+        display: inline-block;
+        font-size: 0;
+      }
+      .header_links {
+        width: 100%;
+        max-width:526px;
+        display: inline-block;
+        font-size: 0;
+        padding: 20px 0 0;
+      }
+      .header_links-link {
+        font-family: Arial;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 15px 0 0;
+      }
     </style>
   </head>
   <body>
-      <table class="main" border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: 'Open Sans', sans-serif;">
+    <table class="wrapper" style="background-color: #ccc;">
+      <table class="main">
+        <!--HEADER-->
         <tr>
           <td>
-            <table border="1" cellpadding="0" cellspacing="0" width="100%" style="background-color: #000;">
-                <tr>
-                    <td>
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid red; background-color: #000; max-width: 640px; margin: 0 auto; height: 50px;">
-                            <tr>
-                                <td>
-                                    
-                                </td>
-                            </tr>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%"style="background: #000; font-family: Arial;">
+              <tr>
+                <td style="padding: 14px 20px;">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td>
+                        <table class="header_logo" align="left" border="0" cellpadding="0" cellspacing="0" style="vertical-align: top;">
+                          <tr>
+                            <td>
+                              <a href="https://www.adidas.pl/?af_ad=HeaderAdidasLogo0&af_adset=Delivery_Confirmation.COMPLETE&af_channel=Order_Related&af_reengagement_window=30d&c=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmc=AdiEmail_OLC-_-None-_-Delivery_Confirmation.COMPLETE-_-Transactional-_-HeaderAdidasLogo0-_-dv%3AeCom-_-cn%3AOrder_Related-_-pc%3ANone&cm_mmc1=PL&cm_mmc2=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmca3=ZC9KD44CIVDWRLOJ&cm_mmca4=2820320&is_retargeting=true&pid=sfmc">
+                                <img src="./assets/Logo-Adidas.png" alt="Logo" style="max-width: 60px;">
+                              </a>
+                            </td>
+                          </tr>
                         </table>
-                    </td>
-                </tr>
+
+                        <table class="header_links" align="left" valign="bottom" border="0" cellpadding="0" cellspacing="0" style="vertical-align: bottom;">
+                          <tr>
+                            <td valign="bottom" style="vertical-align: bottom;">
+                              <a class="header_links-link" href="https://www.adidas.pl/mezczyzni?af_ad=HeaderMen0&af_adset=Delivery_Confirmation.COMPLETE&af_channel=Order_Related&af_reengagement_window=30d&c=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmc=AdiEmail_OLC-_-None-_-Delivery_Confirmation.COMPLETE-_-Transactional-_-HeaderMen0-_-dv%3AeCom-_-cn%3AOrder_Related-_-pc%3ANone&cm_mmc1=PL&cm_mmc2=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmca3=ZC9KD44CIVDWRLOJ&cm_mmca4=2820320&is_retargeting=true&pid=sfmc">
+                                MĘŻCZYŻNI
+                              </a>
+                              <a class="header_links-link" href="https://www.adidas.pl/kobiety?af_ad=HeaderWomen0&af_adset=Delivery_Confirmation.COMPLETE&af_channel=Order_Related&af_reengagement_window=30d&c=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmc=AdiEmail_OLC-_-None-_-Delivery_Confirmation.COMPLETE-_-Transactional-_-HeaderWomen0-_-dv%3AeCom-_-cn%3AOrder_Related-_-pc%3ANone&cm_mmc1=PL&cm_mmc2=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmca3=ZC9KD44CIVDWRLOJ&cm_mmca4=2820320&is_retargeting=true&pid=sfmc">
+                                KOBIETY
+                              </a>
+                              <a class="header_links-link" href="https://www.adidas.pl/dzieci?af_ad=HeaderKids0&af_adset=Delivery_Confirmation.COMPLETE&af_channel=Order_Related&af_reengagement_window=30d&c=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmc=AdiEmail_OLC-_-None-_-Delivery_Confirmation.COMPLETE-_-Transactional-_-HeaderKids0-_-dv%3AeCom-_-cn%3AOrder_Related-_-pc%3ANone&cm_mmc1=PL&cm_mmc2=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&cm_mmca3=ZC9KD44CIVDWRLOJ&cm_mmca4=2820320&is_retargeting=true&pid=sfmc">
+                                DZIECI
+                              </a>
+                              <a class="header_links-link" href="https://www.adidas.pl/storefinder?cm_mmc=AdiEmail_OLC-_-None-_-Delivery_Confirmation.COMPLETE-_-Transactional-_-HeaderStoreFinder0-_-dv:eCom-_-cn:Order_Related-_-pc:None&cm_mmc1=PL&cm_mmca3=ZC9KD44CIVDWRLOJ&cm_mmca4=2820320&cm_mmc2=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&af_reengagement_window=30d&is_retargeting=true&pid=sfmc&c=adidas-EMEA-eCom-Email-OLC-None-None-PL-Order_Related-None-2308&af_adset=Delivery_Confirmation.COMPLETE&af_ad=HeaderStoreFinder0&af_channel=Order_Related#/">
+                                SKLEPY
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
             </table>
           </td>
         </tr>
+        <!--HEADER-->
+
+
       </table>
+    </table>
   </body>
 </html>
