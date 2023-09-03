@@ -98,12 +98,34 @@
       .mobile {
         display: none;
       }
+      .order-text {
+        color:#000000;
+        font-family: AdineuePRO,Helvetica,Arial,sans-serif; 
+        font-size: 52px; 
+        line-height: 1; 
+        letter-spacing: 1,5px; 
+        font-weight: bold; 
+        text-transform: uppercase; 
+        padding-top: 50px; 
+        padding-left: 20px; 
+        padding-right: 20px"
+      }
       @media (max-width: 600px) {
         .pc {
           display: none;
         }
         .mobile {
           display: table;
+        }
+      }
+      @media (max-width: 450px) {
+        .order-text {
+          font-size: 44px;
+        }
+      }
+      @media (max-width: 370px) {
+        .order-text {
+          font-size: 33px;
         }
       }
     </style>
@@ -289,6 +311,40 @@
           </td>
         </tr>
         <!--LEVELS SMALL SCREEN-->
+
+        <!--YOUR ORDER-->
+        <tr>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 642px; margin: 0 auto;">
+              <tr>
+                <td class="order-text">
+                  TWOJE ZAMÓWIENIE ADIDAS ZOSTAŁO DOSTARCZONE
+                </td>
+              </tr>
+              <tr>
+                <td style="color:#000000; font-family: Arial; font-size:18px; line-height:28px; letter-spacing:1,5px; font-weight:bold; padding-top:26px; padding-left:20px; padding-right:20px; text-decoration: underline;">
+                  Numer Zamówienia: APL09560215
+                </td>
+              </tr>
+              <tr>
+                <td style="color:#5c5c5c; font-family: Arial; font-size:18px; line-height:28px; letter-spacing:1,5px; font-weight:normal; padding-top:26px; padding-left:20px; padding-right:20px">
+                  Twoje zamówienie zostało bezpiecznie dostarczone. Twoje nowe produkty adidas są już u Ciebie, więc zacznij z nich korzystać już dziś. Do tej wiadomości e-mail dołączona jest Twoja faktura w formie elektronicznej.
+                </td>
+              </tr>
+              <tr>
+                <td style="color:#5c5c5c; font-family: Arial; font-size:18px; line-height:28px; letter-spacing:1,5px; font-weight:normal; padding-top:26px; padding-left:20px; padding-right:20px">
+                  Poniżej powiedz nam, co myślisz o procesie jego dostawy: od początku do końca. Co Ci się podobało? Co możemy poprawić? Dziękujemy za komentarz i życzymy zadowolenia z zakupów. Powodzenia!
+                </td>
+              </tr>
+              <tr>
+                <td style="color:#5c5c5c; font-family: Arial; font-size:18px; line-height:28px; letter-spacing:1,5px; font-weight:normal; padding: 46px 20px 20px;">
+                  Twój zespół adidas
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--YOUR ORDER-->
 
       </table>
     </table>
