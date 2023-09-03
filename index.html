@@ -92,21 +92,18 @@
         color: #fff;
         padding: 10px 15px 0 0;
       }
-      .levels-bs {
-        font-family: Arial;
-        background: rgb(248, 247, 245);
+      .pc {
+        display: table;
       }
-      .levels-ss {
+      .mobile {
         display: none;
-        font-family: Arial;
-        background: rgb(248, 247, 245);
       }
       @media (max-width: 600px) {
-        .levels-bs {
+        .pc {
           display: none;
         }
-        .levels-ss {
-          display: inline-block;
+        .mobile {
+          display: table;
         }
       }
     </style>
@@ -184,7 +181,7 @@
         <!--LEVELS BIG SCREEN-->
         <tr>
           <td> 
-            <table class="levels-bs" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <table class="pc" border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial; background: rgb(248, 247, 245);">
               <tr>
                 <td style=" padding: 14px 0;">
                   <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 642px; margin: 0 auto;">
@@ -243,13 +240,46 @@
         <!--LEVELS SMALL SCREEN-->
         <tr>
           <td> 
-            <table class="levels-ss" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <table class="mobile" border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial; background: rgb(248, 247, 245);">
               <tr>
-                <td>
-                  <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; width: 100%; max-width: 642px;">
+                <td style="padding: 14px 0;">
+                  <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 642px; margin: 0 auto;">
                     <tr>
                       <td>
-
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td width="50%" align="left" style="font-family:AdihausDIN,helvetica,Arial,sans-serif; font-size:13px; color:#000000; line-height: 18px; letter-spacing:normal; font-weight:regular">
+                              Jesteś na <br>
+                              <b>POZIOMIE 2</b>
+                            </td>
+                            <td width="50%" align="right" style="font-family:AdihausDIN,helvetica,Arial,sans-serif; font-size:13px; color:#000000; line-height: 18px; letter-spacing:normal; font-weight:regular">
+                              Punkty do kolejnego<br>
+                              poziomu <b>1,912</b>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                          <tr>
+                            <td width="50%" align="right" style="font-size: 20px;">
+                              <b>1,088</b>
+                            </td>
+                            <td width="50%" align="left" style="font-size: 12px; padding: 5px 0 0 5px;">
+                              punkty
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width="36.28%" bgcolor="#0081c7">
+                              
+                            </td>
+                            <td width="63,72%" style="height: 4px" bgcolor="#fff">
+                              
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
