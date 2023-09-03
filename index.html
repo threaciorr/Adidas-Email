@@ -64,11 +64,9 @@
       }
       .main {
         background-color: #fff;
-        max-width: 642px;
         width: 100%;
         border-spacing: 0;
         margin: 0 auto;
-        font-family: sans-serif;
         color: #333;
       }
       .header_logo {
@@ -94,18 +92,36 @@
         color: #fff;
         padding: 10px 15px 0 0;
       }
+      .levels-bs {
+        display: inline-block;
+        font-family: Arial;
+        background: rgb(248, 247, 245);
+      }
+      .levels-ss {
+        display: none;
+        font-family: Arial;
+        background: rgb(248, 247, 245);
+      }
+      @media (max-width: 600px) {
+        .levels-bs {
+          display: none;
+        }
+        .levels-ss {
+          display: inline-block;
+        }
+      }
     </style>
   </head>
   <body>
     <table class="wrapper" style="background-color: #ccc;">
-      <table class="main">
+      <table border="0" cellpadding="0" cellspacing="0" class="main">
         <!--HEADER-->
         <tr>
           <td>
-            <table border="0" cellpadding="0" cellspacing="0" width="100%"style="background: #000; font-family: Arial;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background: #000; font-family: Arial;">
               <tr>
                 <td style="padding: 14px 20px;">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 642px; margin: 0 auto;">
                     <tr>
                       <td>
                         <table class="header_logo" align="left" border="0" cellpadding="0" cellspacing="0" style="vertical-align: top;">
@@ -146,6 +162,25 @@
         </tr>
         <!--HEADER-->
 
+        <!--ADICLUB-->
+        <tr>
+          <td> 
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial; background: rgb(248, 247, 245);">
+              <tr>
+                <td>
+                  <table border="0" cellpadding="0" cellspacing="0" style="background-image: url(./assets/pasek-Adidas.jpg); height: 30px; margin: 0 auto; width: 100%; max-width: 642px;">
+                    <tr>
+                      <td>
+      
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--ADICLUB-->
 
       </table>
     </table>
