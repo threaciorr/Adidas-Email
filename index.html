@@ -110,12 +110,22 @@
         padding-left: 20px; 
         padding-right: 20px"
       }
+      .exchange-column {
+        display: inline-block; 
+        vertical-align: top;
+        width: 100%;
+        max-width: 299px;
+      }
       @media (max-width: 600px) {
         .pc {
           display: none;
         }
         .mobile {
           display: table;
+        }
+        .exchange-column {
+          width: 100%;
+          max-width: 100%;
         }
       }
       @media (max-width: 450px) {
@@ -364,6 +374,47 @@
           </td>
         </tr>
         <!--REFUND-->
+
+        <!--EXCHANGE-->
+        <tr>
+          <td style="padding: 20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 642px; margin: 0 auto; background:#000;">
+              <tr>
+                <td style="color:#fff; font-family: Arial; font-size:18px; line-height:28px; letter-spacing: 0.5px; font-weight:bold; padding-top:25px; padding-left:40px; padding-right:20px;padding-bottom: 5px;">
+                  ZACHOWAĆ CZY ZMIENIĆ?
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 30px 20px;">
+                  <table class="exchange-column" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="100%" style="color:#fff; font-family: Arial; font-size:18px; line-height:28px; letter-spacing: 0.5px; font-weight:bold; padding: 0 20px;">
+                        MOŻESZ ZA DARMO WYMIENIĆ LUB ZWRÓCIĆ ZAMÓWIONE PRODUKTY!
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="exchange-column" border="0" cellpadding="0" cellspacing="0" style="padding: 10px 20px;">
+                    <tr>
+                      <td width="100%">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #fff;">
+                          <tr>
+                            <td style="color:#000000; font-family: Arial; font-size:12px; line-height:20px; letter-spacing: 0.5px; font-weight:bold; padding: 15px 20px;">
+                              ROZPOCZNIJ WYMIANĘ LUB ZWROT
+                            </td>
+                            <td style="padding: 2px 20px;">
+                              <img src="./assets/arrowBlack-Adidas.png" alt="arrow-right">
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--EXCHANGE-->
 
       </table>
     </table>
